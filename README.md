@@ -1,7 +1,7 @@
 # HN-Search
 
-Hacker News (HN) can be defined as a mixture of both a news website and a forum. It is oriented towards presenting news related to technology and entrepreneurship. News are posted by HN users and the platform strives to guarantee good quality news, and dicussions generated from each of them.
-HN uses a search engine powered by Algolia to allow users search over the posts. I have detected that the results returned by Algolia are not what is expected from a search engine that works over news. In this project I am going to explore and provide a way of improving the search results given certain characteristics of the posts.
+Hacker News (HN) is a hybrid platform combining a news aggregator and a discussion forum, primarily focused on technology and entrepreneurship. Users submit news articles, and the community engages through discussions. While HN utilizes Algolia as its underlying search engine to allow users to search posts, I identified that the default search results often do not meet the expectations for a news-focused platform.
 
+This project investigates the limitations of the current HN search system and proposes improvements tailored to the unique characteristics of news posts and user interactions on HN. The goal is to enhance the relevance and quality of search results, providing a more effective tool for users to discover valuable content.
 
-**Check the files under the *documents* directory to find information about how I retrieved the dataset, built the ranking functions and developed the UI.**
+For a detailed explanation of the methodology and findings, please refer to my [research paper](https://github.com/agustingrigoriu/HN-Search/blob/master/documents/GREGORIEU_Report.pdf).
